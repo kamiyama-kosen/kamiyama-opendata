@@ -1,12 +1,12 @@
-ID,神山まるごと高専スカラーシップパートナー企業,URL
-deloitte,デロイト トーマツ コンサルティング,https://www2.deloitte.com/jp/ja/pages/about-deloitte/articles/dtc/dtc.html
-ctc,CTC - 伊藤忠テクノソリューションズ,https://www.ctc-g.co.jp/
-fujitsu,Fujitsu,https://www.fujitsu.com/global/
-sansan,Sansan,https://jp.sansan.com/
-mixi,MIXI,https://mixi.co.jp/
-secom,SECOM,https://www.secom.co.jp/
-ricoh,RICOH,https://www.ricoh.co.jp/
-septeni,SEPTENI,https://www.septeni.co.jp/
-rohto,ロート製薬,https://www.rohto.co.jp/
-sony,ソニーグループ,https://www.sony.com/
-softbank,SoftBank,https://www.softbank.jp/
+id,name,name_long,url
+deloitte,デロイト,デロイト トーマツ コンサルティング,https://www2.deloitte.com/jp/ja/pages/about-deloitte/articles/dtc/dtc.html
+ctc,CTC,CTC - 伊藤忠テクノソリューションズ,https://www.ctc-g.co.jp/
+fujitsu,Fujitsu,Fujitsu,https://www.fujitsu.com/global/
+sansan,Sansan,Sansan,https://jp.sansan.com/
+mixi,MIXI,MIXI,https://mixi.co.jp/
+secom,SECOM,SECOM,https://www.secom.co.jp/
+ricoh,RICOH,RICOH,https://www.ricoh.co.jp/
+septeni,SEPTENI,,https://www.septeni.co.jp/
+rohto,ロート,ロート製薬,https://www.rohto.co.jp/
+sony,ソニー,ソニーグループ,https://www.sony.com/
+softbank,SoftBank,SoftBank,https://www.softbank.jp/
