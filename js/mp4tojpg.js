@@ -7,6 +7,6 @@ const fns = await dir2array(path);
 for (const fn of fns) {
   if (!fn.endsWith(".mp4")) continue;
   console.log(fn);
-  const outfn = changeExt(fn, ".jpg");
+  const outfn = changeExt(fn, "jpg");
   await extractJPEG(path + fn, path + outfn);
 }
