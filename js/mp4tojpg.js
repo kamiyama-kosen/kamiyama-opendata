@@ -1,0 +1,12 @@
+import { dir2array } from "https://js.sabae.cc/dir2array.js";
+import { changeExt } from "./changeExt.js";
+import { extractJPEG } from "./extractJPEG.js";
+
+const path = "../temp/";
+const fns = await dir2array(path);
+for (const fn of fns) {
+  if (!fn.endsWith(".mp4")) continue;
+  console.log(fn);
+  const outfn = changeExt(fn, ".jpg");
+  await extractJPEG(path + fn, path + outfn);
+}
