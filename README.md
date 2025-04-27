@@ -17,13 +17,10 @@
 - [mp3totxt.js](mp3totxt.js) - ディレクトリ内のMP3ファイルから文字起こしするツール (要 .env as OpenAI API key)
 - [mp4tomp3.js](mp3totxt.js) - ディレクトリ内のMP4ファイルからMP3ファイルを作成するツール (要 ffmpeg)
 - [mp4tojpg.js](mp3tojpg.js) - ディレクトリ内のMP4ファイルからJPEGファイルを作成するツール (要 ffmpeg)
+- [txttopng.js](txttopng.js) - ディレクトリ内のTXTファイルからPNGファイルを生成するツール (要 .env as OpenAI API key)
 - [addURL.js](addURL.js) - CSVオープンデータに追加オープンデータのURLを加えるツール
 - [makeHTML.js](makeHTML.js) - CSVオープンデータからHTMLを生成するツール
-
 - [changeExt.js](changeExt.js) - 拡張子を変更する関数
-- [extractJPEG.js](extractJPEG.js) - 動画ファイルからJPEGファイルを生成する関数 (要 ffmpeg)
-- [extractMP3.js](extractMP3.js) - 動画ファイルからMP3ファイルを生成する関数 (要 ffmpeg)
-- [ffmpeg.js](ffmpeg.js) - ffmpegを呼び出す関数 (要 ffmpeg)
 
 ## how to install ffmpeg
 
