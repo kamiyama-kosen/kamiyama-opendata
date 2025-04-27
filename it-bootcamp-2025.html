@@ -4,25 +4,170 @@
 body {
   font-family: sans-serif;
   text-align: center;
+  background-color: #f0f0f0;
 }
 img, video {
   width: 95vw;
 }
-.script {
+.imglist {
+  white-space: nowrap;
+  overflow: scroll;
+}
+.imglist img {
+  width: 20vw;
+}
+.imglist > div {
+  display: inline-block;
+  padding: .1vw;
+  padding-bottom: 1em;
+}
+.imglist a {
+  text-decoration: none;
+  color: black !important;
+}
+.spanteam {
+  display: none;
+}
+
+.container {
+}
+
+.character img, .graphic img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.transcript {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  line-height: 1.6;
   font-size: 90%;
-  border: 1px solid black;
-  padding: 0.5em;
-  margin: 0.5em;
   text-align: left;
 }
+
+video {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  background: #000;
+}
+
+@media (min-width: 768px) {
+  .spanteam {
+    display: inline;
+  }
+  h2 {
+    text-align: left;
+    font-size: 200%;
+  }
+  .container {
+    display: grid;
+    align-items: start;
+    gap: .5em;
+  }
+  .character {
+  	grid-column: 1;
+    grid-row: 1 / 3;
+  }
+  .graphic {
+  	grid-column: 1;
+    grid-row: 3 / 5;
+  }
+  .video {
+  	grid-column: 2 / 4;
+    grid-row: 1;
+  }
+  .transcript {
+  	grid-column: 2 / 4;
+    grid-row: 2 / 5;
+  }
+}
+
 </style>
 </head><body>
 <h1>神山まるごと高専ITブートキャンプ2025 まるごとハッカソン発表会</h1>
+<div class=imglist>
+    <div>
+      <a href=#secom><img src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/1_secom_char.png></a><br>
+      <a href=#secom class=imglista><span class=spanteam>チーム </span>secom</a>
+    </div>
+  
+
+    <div>
+      <a href=#ricoh><img src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/2_ricoh_char.png></a><br>
+      <a href=#ricoh class=imglista><span class=spanteam>チーム </span>ricoh</a>
+    </div>
+  
+
+    <div>
+      <a href=#sony><img src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/3_sony_char.png></a><br>
+      <a href=#sony class=imglista><span class=spanteam>チーム </span>sony</a>
+    </div>
+  
+
+    <div>
+      <a href=#mixi><img src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/4_mixi_char.png></a><br>
+      <a href=#mixi class=imglista><span class=spanteam>チーム </span>mixi</a>
+    </div>
+  
+
+    <div>
+      <a href=#deloitte><img src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/5_deloitte_char.png></a><br>
+      <a href=#deloitte class=imglista><span class=spanteam>チーム </span>deloitte</a>
+    </div>
+  
+
+    <div>
+      <a href=#ctc><img src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/6_ctc_char.png></a><br>
+      <a href=#ctc class=imglista><span class=spanteam>チーム </span>ctc</a>
+    </div>
+  
+
+    <div>
+      <a href=#sansan><img src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/7_sansan_char.png></a><br>
+      <a href=#sansan class=imglista><span class=spanteam>チーム </span>sansan</a>
+    </div>
+  
+
+    <div>
+      <a href=#septeni><img src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/8_septeni_char.png></a><br>
+      <a href=#septeni class=imglista><span class=spanteam>チーム </span>septeni</a>
+    </div>
+  
+
+    <div>
+      <a href=#fujitsu><img src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/9_fujitsu_char.png></a><br>
+      <a href=#fujitsu class=imglista><span class=spanteam>チーム </span>fujitsu</a>
+    </div>
+  
+
+    <div>
+      <a href=#softbank><img src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/A_softbank_char.png></a><br>
+      <a href=#softbank class=imglista><span class=spanteam>チーム </span>softbank</a>
+    </div>
+  
+
+    <div>
+      <a href=#rohto><img src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/B_rohto_char.png></a><br>
+      <a href=#rohto class=imglista><span class=spanteam>チーム </span>rohto</a>
+    </div>
+  </div>
+<div>※動画を元にテキストをAI生成し、グラレコ、キャラクターはそのテキストを元にAI生成したものです</diV>
+
 <main>
 
-  <h2>1. Yui by チーム secom</h2>
-  <a href=https://img.fukuno.com/kamiyama/it-bootcamp-2025/1_secom.mp4 target=_video><img src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/1_secom.jpg></a>
-  <div class=script>皆さんは以前の地域医療の講義ではどんな課題を発見しましたか。
+  <hr>
+  <section>
+    <a id=secom><h2>1. Yui by チーム secom</h2></a>
+    <div class=container>
+      <div class=character><img class=char src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/1_secom_char.png></div>
+      <div class=graphic><img class=grarec src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/1_secom.png></div>
+      <div class=video><video controls src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/1_secom.mp4 poster=https://img.fukuno.com/kamiyama/it-bootcamp-2025/1_secom.jpg></video></div>
+      <div class=transcript>皆さんは以前の地域医療の講義ではどんな課題を発見しましたか。
 アクセスの難しさ、人手不足、日本人の意識の低さなどの課題は山積みです。
 しかし現場は対応に追われる、課題解決に取り組む余裕がありません。
 そこで私たちが提案するのは、見えることで気づける、伝えることで変えられる、
@@ -44,11 +189,18 @@ img, video {
 求人募集のように職業を選びデジタル化を進める協力や地域医療を支えたいエンジニアをつなぐ架け橋となります。
 見えることで気づける、伝えることで変えられる医療現場に改革を。
 これで発表を終わります。</div>
+    </div>
+  </section>
   
 
-  <h2>2. 宅診 by チーム ricoh</h2>
-  <a href=https://img.fukuno.com/kamiyama/it-bootcamp-2025/2_ricoh.mp4 target=_video><img src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/2_ricoh.jpg></a>
-  <div class=script>はい、今からチームリコーの発表を始めます。
+  <hr>
+  <section>
+    <a id=ricoh><h2>2. 宅診 by チーム ricoh</h2></a>
+    <div class=container>
+      <div class=character><img class=char src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/2_ricoh_char.png></div>
+      <div class=graphic><img class=grarec src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/2_ricoh.png></div>
+      <div class=video><video controls src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/2_ricoh.mp4 poster=https://img.fukuno.com/kamiyama/it-bootcamp-2025/2_ricoh.jpg></video></div>
+      <div class=transcript>はい、今からチームリコーの発表を始めます。
 私のおばあちゃんは淡路島の山の奥で暮らしています。
 なので、病院からはかなり遠く、あまり病院に行くこともできていません。
 メインのターゲットとしては、お年寄りの方や診療所から遠い方など、
@@ -89,11 +241,18 @@ img, video {
 これが今日と翌日の神山内科の予約時間です。
 こうやって出ていて押しやすいですね、みたいな機能がついています。かわいいですし。
 以上で匠の紹介を終わります。ありがとうございました。</div>
+    </div>
+  </section>
   
 
-  <h2>3. 茶っとーく by チーム sony</h2>
-  <a href=https://img.fukuno.com/kamiyama/it-bootcamp-2025/3_sony.mp4 target=_video><img src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/3_sony.jpg></a>
-  <div class=script>次、エスピーです。お願いします。
+  <hr>
+  <section>
+    <a id=sony><h2>3. 茶っとーく by チーム sony</h2></a>
+    <div class=container>
+      <div class=character><img class=char src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/3_sony_char.png></div>
+      <div class=graphic><img class=grarec src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/3_sony.png></div>
+      <div class=video><video controls src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/3_sony.mp4 poster=https://img.fukuno.com/kamiyama/it-bootcamp-2025/3_sony.jpg></video></div>
+      <div class=transcript>次、エスピーです。お願いします。
 私たちが選んだ地域の課題、地域医療の課題は
 医師・看護師が患者の本当を知らない
 医者の前にしたりとか、診断という目的で行ったときに
@@ -163,11 +322,18 @@ img, video {
 二者一体の新しいウェルビーイングをつける
 それがチャットワークです
 ご清聴ありがとうございました</div>
+    </div>
+  </section>
   
 
-  <h2>4. 診サポ by チーム mixi</h2>
-  <a href=https://img.fukuno.com/kamiyama/it-bootcamp-2025/4_mixi.mp4 target=_video><img src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/4_mixi.jpg></a>
-  <div class=script>みなさんこんにちはチームミクシーです
+  <hr>
+  <section>
+    <a id=mixi><h2>4. 診サポ by チーム mixi</h2></a>
+    <div class=container>
+      <div class=character><img class=char src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/4_mixi_char.png></div>
+      <div class=graphic><img class=grarec src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/4_mixi.png></div>
+      <div class=video><video controls src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/4_mixi.mp4 poster=https://img.fukuno.com/kamiyama/it-bootcamp-2025/4_mixi.jpg></video></div>
+      <div class=transcript>みなさんこんにちはチームミクシーです
 さてみなさん医療職という言葉を聞いてどう思いますか
 どんなイメージを持ちますか
 みなさんの中にはブラックという言葉を思い浮かべた人もいるのではないでしょうか
@@ -204,11 +370,18 @@ ICTに頼りたいけど手前はお金が
 審査簿があれば医療職はホワイトに
 もうブラックとは言わせない
 ご清聴ありがとうございました</div>
+    </div>
+  </section>
   
 
-  <h2>5. ごはんチェッカー by チーム deloitte</h2>
-  <a href=https://img.fukuno.com/kamiyama/it-bootcamp-2025/5_deloitte.mp4 target=_video><img src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/5_deloitte.jpg></a>
-  <div class=script>こんにちは、デロイトトーマツコンサルティング小学生です。
+  <hr>
+  <section>
+    <a id=deloitte><h2>5. ごはんチェッカー by チーム deloitte</h2></a>
+    <div class=container>
+      <div class=character><img class=char src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/5_deloitte_char.png></div>
+      <div class=graphic><img class=grarec src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/5_deloitte.png></div>
+      <div class=video><video controls src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/5_deloitte.mp4 poster=https://img.fukuno.com/kamiyama/it-bootcamp-2025/5_deloitte.jpg></video></div>
+      <div class=transcript>こんにちは、デロイトトーマツコンサルティング小学生です。
 今回のテーマは、地域医療の課題をITで対決せよう、です。
 そこで私たちが考えたのは、ごはんチェッカーというアプリです。
 現在の地域医療では、医療従事者さんの人数不足などが原因で、
@@ -268,11 +441,18 @@ AIからも今日の食事はいい栄養バランスだとコメントをいた
 バランスのいい食生活や認知症予防を行うことができます。
 これが私たちが考えた地域医療をITで解決するアイデアになっています。
 ありがとうございました。</div>
+    </div>
+  </section>
   
 
-  <h2>6. SANMA by チーム ctc</h2>
-  <a href=https://img.fukuno.com/kamiyama/it-bootcamp-2025/6_ctc.mp4 target=_video><img src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/6_ctc.jpg></a>
-  <div class=script>みなさん、こんにちは!
+  <hr>
+  <section>
+    <a id=ctc><h2>6. SANMA by チーム ctc</h2></a>
+    <div class=container>
+      <div class=character><img class=char src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/6_ctc_char.png></div>
+      <div class=graphic><img class=grarec src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/6_ctc.png></div>
+      <div class=video><video controls src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/6_ctc.mp4 poster=https://img.fukuno.com/kamiyama/it-bootcamp-2025/6_ctc.jpg></video></div>
+      <div class=transcript>みなさん、こんにちは!
 CTCグループです。よろしくお願いします。
 まず、自己紹介からしましょうか。
 鈴木ひなたと
@@ -346,11 +526,18 @@ CTCグループです。よろしくお願いします。
 そんな未来を実現します。
 以上で終わります。
 ありがとうございました。</div>
+    </div>
+  </section>
   
 
-  <h2>7. 症状伝えるくん by チーム sansan</h2>
-  <a href=https://img.fukuno.com/kamiyama/it-bootcamp-2025/7_sansan.mp4 target=_video><img src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/7_sansan.jpg></a>
-  <div class=script>こんにちは
+  <hr>
+  <section>
+    <a id=sansan><h2>7. 症状伝えるくん by チーム sansan</h2></a>
+    <div class=container>
+      <div class=character><img class=char src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/7_sansan_char.png></div>
+      <div class=graphic><img class=grarec src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/7_sansan.png></div>
+      <div class=video><video controls src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/7_sansan.mp4 poster=https://img.fukuno.com/kamiyama/it-bootcamp-2025/7_sansan.jpg></video></div>
+      <div class=transcript>こんにちは
 私たちは
 症状を伝えるくんというアプリを作りました
 なぜ
@@ -402,11 +589,18 @@ QRコードを読み取ってみてください
 こういう感じで
 ありがとうございました
 ありがとうございました</div>
+    </div>
+  </section>
   
 
-  <h2>8. ハッカソシ by チーム septeni</h2>
-  <a href=https://img.fukuno.com/kamiyama/it-bootcamp-2025/8_septeni.mp4 target=_video><img src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/8_septeni.jpg></a>
-  <div class=script>こんにちは、セプテイニ小学生です。
+  <hr>
+  <section>
+    <a id=septeni><h2>8. ハッカソシ by チーム septeni</h2></a>
+    <div class=container>
+      <div class=character><img class=char src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/8_septeni_char.png></div>
+      <div class=graphic><img class=grarec src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/8_septeni.png></div>
+      <div class=video><video controls src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/8_septeni.mp4 poster=https://img.fukuno.com/kamiyama/it-bootcamp-2025/8_septeni.jpg></video></div>
+      <div class=transcript>こんにちは、セプテイニ小学生です。
 私たちがこのまるごと発火ソンで提案するのは、
 病気の発火を防ぐ予防型アプリ、発火阻止です。
 これは、医療機関が少ない仮想地域でも、
@@ -463,11 +657,18 @@ QRコードを読み取ってみてください
 誰もが自分の住む場所、自分の健康を自分で守る。
 それが博多組織の目指す世界です。
 ありがとうございました。</div>
+    </div>
+  </section>
   
 
-  <h2>9. おくすリズム by チーム fujitsu</h2>
-  <a href=https://img.fukuno.com/kamiyama/it-bootcamp-2025/9_fujitsu.mp4 target=_video><img src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/9_fujitsu.jpg></a>
-  <div class=script>こんにちは。フティッシュチームです。
+  <hr>
+  <section>
+    <a id=fujitsu><h2>9. おくすリズム by チーム fujitsu</h2></a>
+    <div class=container>
+      <div class=character><img class=char src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/9_fujitsu_char.png></div>
+      <div class=graphic><img class=grarec src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/9_fujitsu.png></div>
+      <div class=video><video controls src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/9_fujitsu.mp4 poster=https://img.fukuno.com/kamiyama/it-bootcamp-2025/9_fujitsu.jpg></video></div>
+      <div class=transcript>こんにちは。フティッシュチームです。
 よろしくお願いします。
 突然ですが、皆さん薬を飲むときに
 困ったなという経験をしたことはありませんか?
@@ -530,11 +731,18 @@ QRコードを読み取ってみてください
 以上、健康をサポートするオックスリズムの
 ご紹介でした。
 ご清聴ありがとうございました。</div>
+    </div>
+  </section>
   
 
-  <h2>10. ハッケン by チーム softbank</h2>
-  <a href=https://img.fukuno.com/kamiyama/it-bootcamp-2025/A_softbank.mp4 target=_video><img src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/A_softbank.jpg></a>
-  <div class=script>こんにちは
+  <hr>
+  <section>
+    <a id=softbank><h2>10. ハッケン by チーム softbank</h2></a>
+    <div class=container>
+      <div class=character><img class=char src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/A_softbank_char.png></div>
+      <div class=graphic><img class=grarec src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/A_softbank.png></div>
+      <div class=video><video controls src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/A_softbank.mp4 poster=https://img.fukuno.com/kamiyama/it-bootcamp-2025/A_softbank.jpg></video></div>
+      <div class=transcript>こんにちは
 こんにちは
 ソフトバースチームでよろしくお願いします
 私たちは毎日の健康チェックに寄り添うデバイスの発見を作りました
@@ -591,11 +799,18 @@ QRコードを読み取ってみてください
 もっと基盤が写らないように
 頑張って作っていきたいと思っています
 以上です、ありがとうございました</div>
+    </div>
+  </section>
   
 
-  <h2>11. もびかる by チーム rohto</h2>
-  <a href=https://img.fukuno.com/kamiyama/it-bootcamp-2025/B_rohto.mp4 target=_video><img src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/B_rohto.jpg></a>
-  <div class=script>こんにちは、アレアンです。
+  <hr>
+  <section>
+    <a id=rohto><h2>11. もびかる by チーム rohto</h2></a>
+    <div class=container>
+      <div class=character><img class=char src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/B_rohto_char.png></div>
+      <div class=graphic><img class=grarec src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/B_rohto.png></div>
+      <div class=video><video controls src=https://img.fukuno.com/kamiyama/it-bootcamp-2025/B_rohto.mp4 poster=https://img.fukuno.com/kamiyama/it-bootcamp-2025/B_rohto.jpg></video></div>
+      <div class=transcript>こんにちは、アレアンです。
 こんにちは、キイトです。
 こんにちは、ナン君です。
 こんにちは、クルミンです。
@@ -650,6 +865,8 @@ QRコードを読み取ってみてください
 ロードハートだよ!
 ロードハートだよ!
 ありがとうございました。</div>
+    </div>
+  </section>
   
 </main>
 <hr><a href=https://github.com/kamiyama-kosen/kamiyama-opendata/>src on GitHub</a>
