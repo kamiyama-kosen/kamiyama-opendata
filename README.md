@@ -13,14 +13,14 @@
 
 ## tools in JavaScript(js)
 
-- [download.js](download.js) - CSVオープンデータからMP4ファイルをローカルにダウンロードするツール
-- [mp3totxt.js](mp3totxt.js) - ディレクトリ内のMP3ファイルから文字起こしするツール (要 .env as OpenAI API key)
-- [mp4tomp3.js](mp3totxt.js) - ディレクトリ内のMP4ファイルからMP3ファイルを作成するツール (要 ffmpeg)
-- [mp4tojpg.js](mp3tojpg.js) - ディレクトリ内のMP4ファイルからJPEGファイルを作成するツール (要 ffmpeg)
-- [txttopng.js](txttopng.js) - ディレクトリ内のTXTファイルからPNGファイルを生成するツール (要 .env as OpenAI API key)
-- [addURL.js](addURL.js) - CSVオープンデータに追加オープンデータのURLを加えるツール
-- [makeHTML.js](makeHTML.js) - CSVオープンデータからHTMLを生成するツール
-- [changeExt.js](changeExt.js) - 拡張子を変更する関数
+- [download.js](js/download.js) - CSVオープンデータからMP4ファイルをローカルにダウンロードするツール
+- [mp3totxt.js](js/mp3totxt.js) - ディレクトリ内のMP3ファイルから文字起こしするツール (要 .env as OpenAI API key)
+- [mp4tomp3.js](js/mp3totxt.js) - ディレクトリ内のMP4ファイルからMP3ファイルを作成するツール (要 ffmpeg)
+- [mp4tojpg.js](js/mp3tojpg.js) - ディレクトリ内のMP4ファイルからJPEGファイルを作成するツール (要 ffmpeg)
+- [txttopng.js](js/txttopng.js) - ディレクトリ内のTXTファイルからPNGファイルを生成するツール (要 .env as OpenAI API key)
+- [addURL.js](js/addURL.js) - CSVオープンデータに追加オープンデータのURLを加えるツール
+- [makeHTML.js](js/makeHTML.js) - CSVオープンデータからHTMLを生成するツール
+- [changeExt.js](js/changeExt.js) - 拡張子を変更する関数
 
 ## prepare
 
